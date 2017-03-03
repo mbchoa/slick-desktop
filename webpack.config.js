@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-  entry: path.resolve(__dirname, 'app/app.jsx'),
+  entry: path.resolve(__dirname, 'app/app.js'),
   output: {
     path: path.resolve(__dirname, 'out'),
     publicPath: 'out/',
@@ -9,7 +9,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.jsx?$/, exclude: /node_modules/, loaders: ['babel-loader'] },
+      { test: /\.js$/, exclude: /node_modules/, loaders: ['babel'] },
       { test: /\.css$/, loader: 'style-loader!css-loader' },
       { test: /\.scss$/, loaders: ['style', 'css', 'sass']},
 
@@ -21,5 +21,6 @@ module.exports = {
 
       { test: /\.json$/, loader: 'json-loader' }
     ]
-  }
+  },
+  extensions: ['.js', '.jsx'],
 };

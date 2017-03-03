@@ -1,14 +1,14 @@
 {
   "name": "epp",
-  "productName": "Epp",
+  "productName": "Slick",
   "version": "0.0.0",
-  "description": "Electron Application",
+  "description": "Desktop application for Slick",
   "license": "MIT",
-  "repository": "react-photonkit/epp",
+  "repository": "slick-desktop",
   "author": {
-    "name": "Jaewe Heo",
-    "email": "jaeweheo@gmail.com",
-    "url": "import.re"
+    "name": "Michael-Bryant.Choa",
+    "email": "mbchoa@gmail.com",
+    "url": "https://michaelchoa.netlify.com"
   },
   "engines": {
     "node": ">=4"
@@ -32,9 +32,9 @@
     "electron-debug": "^0.2.1",
     "history": "^1.12.3",
     "object-assign": "^4.0.1",
-    "react": "^0.14.1",
-    "react-dom": "^0.14.1",
-    "react-photonkit": "^0.3.2"
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-photonkit": "^0.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.4.0",

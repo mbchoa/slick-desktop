@@ -10,7 +10,7 @@ class Sidebar extends React.Component {
     return (
       <Pane ptSize="sm" sidebar>
         <NavGroup activeKey={1} onSelect={this.onSelect}>
-          <NavTitle>nav group icon &amp; text</NavTitle>
+          <NavTitle>CHANNELS</NavTitle>
           <NavGroupItem eventKey={1} glyph="home" text="home" />
           <NavGroupItem eventKey={2} glyph="download" text="download" />
         </NavGroup>
