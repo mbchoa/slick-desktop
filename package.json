@@ -29,6 +29,7 @@
     "electron-app"
   ],
   "dependencies": {
+    "auto-bind": "^1.1.0",
     "electron-debug": "^0.2.1",
     "history": "^1.12.3",
     "object-assign": "^4.0.1",
